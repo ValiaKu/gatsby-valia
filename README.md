@@ -6,7 +6,7 @@
 </p>
 <h1 align="center">
   Appsilon FrontEnd assignment - Kuzmych Valentyna
-</h1>
+</h1>Cancel changes
 
 I decided to crate Test project using Gatsby framework
 
@@ -17,6 +17,5 @@ In real projects, for sure, icons should be 100% like in design :) Usually I cre
 
 As there were mo design for mobile I've realized responsive by the simplest way.
 
-thank you for the chance to play with Getsby :) It is cool stuff
 
 
