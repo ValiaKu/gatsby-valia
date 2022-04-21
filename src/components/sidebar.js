@@ -5,8 +5,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTableCellsLarge,
-  faUserPoliceTie,
-  faShieldKeyhole,
   faArrowRightFromBracket,
   faBuilding,
   faFingerprint,
