@@ -25,11 +25,14 @@ const Sidebar = ({ siteTitle }) => (
     />
 
     <section class="user-box">
-      <StaticImage
-        src="../images/girl.png"
-        alt="User avatar"
-        style={{ marginBottom: `1.45rem` }}
-      />
+      <div style={{ margin: `0 auto` }}>
+        <StaticImage
+          src="../images/girl.png"
+          alt="User avatar"
+          class="avatar-img"
+          style={{ marginBottom: `1.45rem` }}
+        />
+      </div>
       <span class="greeting-text">Hello, Rusalba Ruiz</span>
       <span class="welcome-text">Welcome back to your insurance portal</span>
 
