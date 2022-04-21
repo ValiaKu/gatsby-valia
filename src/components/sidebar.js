@@ -17,11 +17,13 @@ import "./sidebar.scss"
 
 const Sidebar = ({ siteTitle }) => (
   <aside class="side-box shadow">
-    <StaticImage
-      src="../images/logo.jpg"
-      class="logo-img"
-      alt="Company Main Page"
-    />
+    <div style={{ margin: `0 auto` }}>
+      <StaticImage
+        src="../images/logo.png"
+        class="logo-img"
+        alt="Company Main Page"
+      />
+    </div>
 
     <section class="user-box">
       <div style={{ margin: `0 auto` }}>
