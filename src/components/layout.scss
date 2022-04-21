@@ -1,0 +1,19 @@
+/* Color set for Main area   */
+$bgMainContentColor: #f4f5f9;
+
+/* Prevent full screen for large  desctops */
+#gatsby-focus-wrapper {
+  max-width: 1360px;
+}
+
+main {
+  margin: 0 auto;
+  padding: 10rem 4% 0 4%;
+  width: 75%;
+  background-color: $bgMainContentColor;
+}
+.content-box {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}

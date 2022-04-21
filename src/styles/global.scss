@@ -1,0 +1,85 @@
+@import url(typography.scss);
+@import url(responsive.scss);
+
+$mainBrandColor: #6745d1;
+$secondaryBrandColor: #6ad2a3;
+$primaryBgColorButton: $mainBrandColor;
+$primaryButtonColor: #fff;
+$buttonBorderColor: #fff;
+$hoverBgButtonColor: $secondaryBrandColor;
+$mainTextColor: #42474a;
+$bgMainContentColor: #f4f5f9;
+
+$declaredMaxView: 1280px;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $bgMainContentColor !important;
+}
+body #gatsby-focus-wrapper {
+  max-width: $declaredMaxView;
+
+  /*Override default bootstrap styles */
+  .btn {
+    border-radius: 0.5rem;
+    border-color: $buttonBorderColor;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    &.btn-lg {
+      font-size: 1.5rem;
+    }
+    &.btn-primary {
+      background-color: $primaryBgColorButton;
+      color: $primaryButtonColor;
+    }
+    i {
+      font-style: normal;
+      font-weight: bold;
+      display: inline-block;
+      padding-left: 1rem;
+    }
+  }
+  .btn:hover {
+    background-color: $hoverBgButtonColor;
+  }
+  /* Bars and Charts in Card*/
+  .card {
+    .progress {
+      height: 0.5rem;
+    }
+    .bar-set {
+      margin: 4rem 0 0 0;
+    }
+    .subtitle-box {
+      display: flex;
+      justify-content: space-between;
+    }
+    .money-amount {
+      font-size: 2.2rem;
+    }
+    .card-body {
+      padding: 2rem;
+      color: $mainTextColor;
+    }
+    .price-title {
+      color: $mainTextColor;
+      font-size: 4.5rem;
+      font-weight: normal;
+      sup {
+        color: $mainBrandColor;
+        font-size: 25px;
+      }
+    }
+    .set-description {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      font-weight: normal;
+    }
+    .subtitle-box > span:first-of-type {
+      position: relative;
+      top: 8px;
+    }
+  }
+}

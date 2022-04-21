@@ -1,0 +1,46 @@
+/* Color set for Header Menu   */
+$colorTopMenuItem: #42474a;
+$activeColorTopMenuItem: #6845d2;
+
+.header-box {
+  z-index: 1;
+  position: relative;
+
+  .navbar {
+    padding: 2rem 0;
+    background-color: #fff;
+    transform: translateX(25%);
+    padding-left: 2%;
+
+    .nav-item {
+      position: relative;
+      .nav-link {
+        color: $colorTopMenuItem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0.5rem;
+      }
+      .nav-link:hover {
+        color: $activeColorTopMenuItem;
+        &:after {
+          content: "";
+          display: block;
+          width: 10px;
+          height: 10px;
+          background-color: red;
+        }
+      }
+      .nav-link:hover:after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: $activeColorTopMenuItem;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -10px;
+      }
+    }
+  }
+}
