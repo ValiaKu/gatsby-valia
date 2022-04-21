@@ -18,8 +18,7 @@ import "./sidebar.scss"
 const Sidebar = ({ siteTitle }) => (
   <aside class="side-box shadow">
     <StaticImage
-      src="../images/logo.png"
-      width={175}
+      src="../images/logo.jpg"
       class="logo-img"
       alt="Company Main Page"
     />
