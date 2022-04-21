@@ -19,7 +19,10 @@
   .side-box ul.user-menu {
     margin-left: -10%;
   }
-
+  .side-box .greeting-text {
+    line-height: 1;
+    font-size: 1.2rem;
+  }
   .side-box .welcome-text {
     display: none;
   }
