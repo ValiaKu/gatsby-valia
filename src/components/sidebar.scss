@@ -66,12 +66,6 @@ $activeColorMenuItem: #6845d2;
     margin: 2rem auto;
   }
 }
-.side-box .logo-img {
-  margin: 0 auto;
-  padding: 1.5rem 0;
-  width: 15rem;
-  display: block;
-}
 .greeting-text {
   font-style: normal;
   font-weight: 700;
@@ -94,4 +88,14 @@ $activeColorMenuItem: #6845d2;
       color: $colorActivePlan;
     }
   }
+}
+
+/*Fix for logo img*/
+.logo-bg-box {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: 175px 36px;
+  height: 36px;
+  width: 175px;
+  margin: 1.5rem auto;
 }

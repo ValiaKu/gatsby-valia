@@ -41,10 +41,14 @@
     display: block;
     font-size: 1rem;
   }
-
-  .side-box .logo-img {
-    clip: rect(0, 30px, 50px, 0);
+  .side-box .plan-box {
+    font-size: 1.1rem;
+    opacity: 0.6;
+  }
+  .side-box .logo-bg-box {
+    width: 30px;
     position: relative;
-    left: 40%;
+    left: 50%;
+    margin-left: -15px;
   }
 }
