@@ -8,7 +8,7 @@
   Appsilon FrontEnd assignment - Kuzmych Valentyna
 </h1>
 
-I decided to crate Test project using Getsby framework
+I decided to crate Test project using Gatsby framework
 
 Also I use Bootstrap and FontAwesome font there.
 
